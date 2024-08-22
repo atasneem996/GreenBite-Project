@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Responsive Grocery Shop Website Design</title>
+    <!-- custom font link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <!-- header section starts-->
+  <header class="header">
+    <a href="#" class="logo"
+      ><i class="fa-solid fa-basket-shopping"></i> GreenBite</a
+    >
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#products">Products</a>
+      <a href="#categories">Categories</a>
+      <a href="#review">Review</a>
+      <a href="#blogs">Blogs</a>
+    </nav>
+    <div class="icons">
+      <div class="fa-solid fa-bars" id="menu-btn"></div>
+      <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+      <div class="fa-solid fa-cart-shopping" id="cart-btn"></div>
+      <div class="fa-solid fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="Search Here..." />
+      <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+    </form>
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fa-solid fa-trash"></i>
+        <img src="img/watermelon new.png" alt="" />
+        <div class="content" id="one">
+          <h3>Watermelon</h3>
+          <span class="price">Rs. 15.99</span>
+          <span class="quantity">Qt : 1 </span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-trash"></i>
+        <img src="img/Guava new.png" alt="" />
+        <div class="content" id="two">
+          <h3 id="two">Guava</h3>
+          <span class="price" id="two">Rs. 24.99/-</span>
+          <span class="quantity" id="two">Qt : 1 Kg</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-trash"></i>
+        <img src="img/onion.png" alt="" />
+        <div class="content" id="three">
+          <h3>Onion</h3>
+          <span class="price">Rs. 18.99/-</span>
+          <span class="quantity">Qt : 1 Kg </span>
+        </div>
+      </div>
+      <div class="total">Total : Rs. 59.97/-</div>
+      <a href="#" class="btn">Check Out</a>
+    </div>
+    <form action="" class="login-form">
+      <h3>Login Now</h3>
+      <input type="email" placeholder="Your Email" class="box" />
+      <input type="password" placeholder="Your Password" class="box" />
+      <p>Forget Your Password <a href="#">Click Here</a></p>
+      <p>Don't have an account <a href="#">Click Here</a></p>
+      <input type="submit" value="Login Now" class="btn" />
+    </form>
+  </header>
+  <!-- header section ends-->
+  <!--home section ends-->
+
+  <body>
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Grown with <span>Love, Delivered</span> With Care</h3>
+        <p>
+          We are committed to bringing you the freshest, most nutritious
+          vegetables. Each veggie is grown with love and delivered with care,
+          ensuring that only the best produce reaches your table.
+        </p>
+        <a href="#" class="btn"> Shop Now</a>
+      </div>
+    </section>
+    <!--home section ends-->
+    <!--features section starts-->
+    <section class="features" id="features">
+      <h1 class="heading">Our <span>Features</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/vegetable bucket.png" alt="" />
+          <h3>Fresh and Organic</h3>
+          <p>Nourish your body with nature’s best."</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+          <img src="img/delivery boy with mask.png" alt="" />
+          <h3>Free Delivery</h3>
+          <p>Enjoy free delivery on every purchase.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+          <img src="img/easy payments.jpg" alt="" />
+          <h3>Easy Payments</h3>
+          <p>Easy payment options on all orders</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+    <!--features section ends-->
+
+    <!--products section start-->
+    <section class="section" id="section--3">
+      <h2 class="heading">Our <span>Products</span></h2>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <img src="img/orange adv..png" alt="Feature 1" />
+            <h3>Fresh Orange</h3>
+            <p>Rs.17.99/- To Rs.20.99/-</p>
+
+            <a href="#" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <img src="img/onion adv..png" alt="Feature 1" />
+            <h3>Fresh Onion</h3>
+            <p>Rs.17.99/- To Rs.20.99/-</p>
+            <a href="#" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <img src="img/carrot 2 adv.png" alt="Feature 1" />
+            <h3>Fresh Carrot</h3>
+            <p>Rs.17.99/- To Rs.20.99/-</p>
+            <a href="#" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <img src="img/Guava new.png" alt="Feature 1" />
+            <h3>Fresh Orange</h3>
+            <p>Rs.17.99/- To Rs.20.99/-</p>
+            <a href="#" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    <!--products section ends-->
+    <!--categories section start-->
+    <section class="categories" id="categories">
+      <h1 class="heading">Product <span> Categories </span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/fruits new.png" alt="" />
+          <h3>Fresh Fruit & Veggies</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn"> Shop Now </a>
+        </div>
+        <div class="box">
+          <img src="img/dairy products pro.png" alt="" />
+          <h3>Dairy Products</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn"> Shop Now </a>
+        </div>
+
+        <div class="box">
+          <img src="img/meat new.png" alt="" />
+          <h3>Fresh Meat</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn"> Shop Now </a>
+        </div>
+      </div>
+    </section>
+    <!--categories section ends-->
+
+    <!--Review section starts-->
+    <section class="review" id="review">
+      <h1 class="heading">Customer's <span> Review</span></h1>
+      <div class="review-slider">
+        <div class="wrapper">
+          <div class="box">
+            <img src="img/user 1 pro.jpg" alt="" />
+            <p>
+              The freshest vegetables I've ever had! You can really taste the
+              difference, I appreciate the dedication to organic farming.
+            </p>
+            <h3>John Deo</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="img/user 2 pro.jpg" alt="" />
+            <p>
+              Amazing service and even better vegetables. It feels great to
+              support a business that values sustainability.
+            </p>
+            <h3>Michael T</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+          <div class="box">
+            <img src="img/user 3 pro.jpg" alt="" />
+            <p>
+              The quality is top-notch, and the delivery is always on time.
+              GreenBite has become our go-to for fresh produce.
+            </p>
+            <h3>Emily R</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Review section starts-->
+
+    <!--Blogs section starts-->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our <span> Blogs</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/blogs 1 pro.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa-solid fa-user"></i>By User</a>
+              <a href="#"><i class="fa-solid fa-calendar"></i>1st May, 2022</a>
+            </div>
+            <h3>Healthy Benefit of Organic Veggies</h3>
+            <p>
+              Discuss the nutritional advantages of organic vegetables compared
+              to conventionally grown ones.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/blogs 2 pro.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa-solid fa-user"></i>By User</a>
+              <a href="#"><i class="fa-solid fa-calendar"></i>1st May, 2022</a>
+            </div>
+            <h3>Environmental Benefits of Eating Locally</h3>
+            <p>
+              Positive impact of consuming locally grown vegetables on the
+              environment and sustainability.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/blogs 3 pro.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa-solid fa-user"></i>By User</a>
+              <a href="#"><i class="fa-solid fa-calendar"></i>1st May, 2022</a>
+            </div>
+            <h3>Cooking with Fresh Vegetables</h3>
+            <p>
+              Share recipes that highlight seasonal vegetables, emphasizing
+              their taste and nutritional benefits.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Blogs section ends-->
+    <!--Footer section starts-->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>GreenBite <i class="fa-solid fa-basket-shopping"></i></h3>
+          <p>
+            Fresh vegetables grown with love, delivered with care. For updates
+            and inquiries, visit
+          </p>
+          <div class="share">
+            <a href="#" class="fa-brands fa-square-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-square-twitter"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+
+          <a href="#" class="links"
+            ><i class="fa-solid fa-phone"></i> +123-456-7890</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-phone"></i> +111-222-3333</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-envelope"></i> alitasneem996@gmail.com</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-location-dot"></i> Ashoknagar, india -
+            473331</a
+          >
+        </div>
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#" class="links"
+            ><i class="fa-solid fa-arrow-right"></i> Home</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-arrow-right"></i> Features</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-arrow-right"></i> Products</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-arrow-right"></i> Categories</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-arrow-right"></i> Review</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-arrow-right"></i> Blogs</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Newsletter</h3>
+          <p>Subscribe for latest update</p>
+          <input type="email" placeholder="Your email" class="email" />
+          <input type="submit" value="subscribe" class="btn" />
+          <img src="img/payment-img pro 2.png" class="payment-img" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--Footer section ends-->
+
+    <!-- custom js file link -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
